@@ -1,0 +1,157 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* headings */
+
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.medium-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* navbar */
+.iphone-img {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 1.25rem;
+}
+
+/* title section */
+
+#title {
+  padding-bottom: 12%;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* features */
+.features-box {
+  padding: 5%;
+}
+
+.features-header {
+  font-size: 1.5rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 75px;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+/* Testimonials Section */
+
+.testimonial-image {
+  border-radius: 50%;
+  height: auto;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+  padding: 2%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-text {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* cta */
+
+/* footer */
+
+#footer{
+  padding: 5%;
+}
+
+.footer-icon {
+  margin: 10px;
+}
+
+/* media queries */
+
+@media (max-width: 1020px) {
+
+  .iphone-img {
+    width: 60%;
+    transform: rotate(0deg);
+    position: static;
+    right: 20%;
+    margin-top: 5%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
